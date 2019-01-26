@@ -1,0 +1,470 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+ 
+  
+
+  
+  
+
+
+  
+   
+    
+     800 SUPER HOLDINGS LIMITED 47 
+     
+    
+   
+   
+    
+       
+     
+    
+   
+   
+    
+     ANNUAL REPORT 2017 
+     
+    
+   
+   
+    
+     CONSOLIDATED STATEMENT OF CASH FLOWS 
+     
+    
+   
+   
+    
+     FOR THE FINANCIAL YEAR ENDED 30 JUNE 2017 
+     
+    
+   
+   
+    
+     Note 
+     
+    
+   
+   
+    
+     Cash flows from operating activities 
+     
+    
+
+    
+     NeI profit 
+     
+    
+
+    
+     Adjustments for: 
+     
+    
+
+    
+     7 Income tax expense 25 
+     
+     7 Depreciation of property, plant and equipment 10 
+     
+     7 Loss on disposal of property, plant and equipment 21 
+     
+     7 Property, plant and equipment written off 21 
+     
+     7 Interest income 20 
+     
+     — Interest expense 24 
+     
+     — Unrealised currency translation (gain)/Ioss 
+     
+    
+   
+   
+    
+     Change in worklng capital: 
+     
+    
+
+    
+     — Trade and other receivables 
+     
+     — Inventories 
+     
+    
+
+    
+     — Other assets 
+     
+    
+
+    
+     — Trade and other payables 
+     
+    
+   
+   
+    
+     Cash generated from operations 
+     
+    
+
+    
+     Interest received 
+     
+    
+
+    
+     Interest paid 
+     
+    
+
+    
+     Income tax paid 25(b) 
+     
+    
+   
+   
+    
+     Net cash provided by operating activities 
+     
+    
+   
+   
+    
+     Cash flows from investing activities 
+     
+    
+
+    
+     Additions to property, plant and equipment 
+     
+    
+
+    
+     Proceeds from disposal of property, plant and equipment 
+     
+     Interest paid 
+     
+    
+   
+   
+    
+     Net cash used in investing activities 
+     
+    
+   
+   
+    
+     Cash flows from financing activities 
+     
+     Proceeds from issuance of ordinary shares to n0n7controlling 
+     
+     interests of subsidiary corporation 
+     
+     Repayments of finance \ease liabilities 
+     
+     Repayments 0f borrowings 
+     
+     Proceeds from borrowings 
+     
+     Dividends paid 18 
+     
+    
+   
+   
+    
+     Net cash used in financing activities 
+     
+    
+   
+   
+    
+     Net increase in cash and cash equivalents 
+     
+    
+
+    
+     Cash and cash equivalents 
+     
+    
+
+    
+     Beginning of financial year 
+     
+    
+
+    
+     Effects of currency translation on cash and cash equivalents 
+     
+    
+   
+   
+    
+     End of financial year 4 
+     
+    
+   
+   
+    
+     The accompanying notes form an integral part of these ﬁnancial statements. 
+     
+    
+   
+   
+    
+     2017 
+     
+     $000 
+     
+    
+   
+   
+    
+     17,095 
+     
+    
+   
+   
+    
+     3,665 
+     
+     9,019 
+     
+     38 
+     
+    
+
+    
+     37 
+     
+     (133) 
+     
+     853 
+     
+     (76) 
+     
+    
+   
+   
+    
+     30,498 
+     
+    
+   
+   
+    
+     3,203 
+     
+     (680) 
+     
+     422 
+     
+     (434) 
+     
+    
+   
+   
+    
+     33,014 
+     
+     125 
+     
+     (857) 
+     
+     (2,658) 
+     
+    
+   
+   
+    
+     29,624 
+     
+    
+   
+   
+    
+     (24,602) 
+     
+     28 
+     
+     (348) 
+     
+    
+   
+   
+    
+     (24,922) 
+     
+    
+   
+   
+    
+     20 
+     
+     (8,033) 
+     
+     (2,861) 
+     
+     16,861 
+     
+    
+   
+   
+    
+     (6,258) 
+     
+    
+   
+   
+    
+     (271) 
+     
+     4,431 
+     
+    
+   
+   
+    
+     20,571 
+     
+     84 
+     
+    
+   
+   
+    
+     25,086 
+     
+    
+   
+   
+    
+       
+     
+    
+   
+   
+    
+     2016 
+     
+     90000 
+     
+    
+   
+   
+    
+     16,729 
+     
+    
+   
+   
+    
+     1,871 
+     
+     8,196 
+     
+     61 
+     
+     42 
+     
+     (8% 
+     
+     1,094 
+     
+     86 
+     
+    
+   
+   
+    
+     27,991 
+     
+     6,517 
+     
+    
+   
+   
+    
+     954 
+     
+     70 
+     
+    
+   
+   
+    
+     35,532 
+     
+     83 
+     
+     (1,101) 
+     
+     (1,790) 
+     
+    
+   
+   
+    
+     82,724 
+     
+    
+   
+   
+    
+     (13,561) 
+     
+     870 
+     
+     (28) 
+     
+    
+   
+   
+    
+     (12,919) 
+     
+    
+   
+   
+    
+     (7,278) 
+     
+     (4,283) 
+     
+     5,999 
+     
+     (3,576) 
+     
+    
+   
+   
+    
+     (9,138) 
+     
+     10,667 
+     
+    
+   
+   
+    
+     9,990 
+     
+     (86) 
+     
+    
+   
+   
+    
+     20,571 
+     
+    
+   
+   
+    
+       
+     
+    
+   
+  
+ 
+
