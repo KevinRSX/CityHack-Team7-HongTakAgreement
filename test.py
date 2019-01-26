@@ -1,12 +1,14 @@
 import re
+import json
 
 def cleanhtml(raw_html):
   cleanr = re.compile('<.*?>')
   cleantext = re.sub(cleanr, '', raw_html)
   return cleantext
 
-for i in range(0, 108):
-    with open("../CityU-Hackathon-2019/Testing/67/hocr/67-" + str(i) + ".hocr", "r") as fobj:
-        html = cleanhtml(fobj.read())
-        with open("67-" + str(i) + ".txt", "w") as output:
-            output.write(html)
+
+with open("Training/1/1_tagged.json") as fobj:
+    tags = json.load(fobj)
+
+with open("1_tagged_formatted.json", "w") as fobj:
+    json.dump(tags, fobj, indent=4)
