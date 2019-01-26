@@ -1,13 +1,32 @@
 import re
+import wf
+
+MAX_FREQUENT_WORDS = 300
+MAX_TESTED_FREQUENT_WORDS = 100
+MAX_FRONT_PAGES_NUMBER = 3
 
 with open('./postal_address_words.txt', 'r') as f:
     _address_word_list = [r for r in f]
 
-def from_soup(pages):
+def from_pages(pages):
     """
     @param: pages in the document soup
     """
-    pass
+    res = from_last_page(pages[-1])
+    if res is None:
+        pass
+    if res is not None:
+        parent = res.parent
+        bbox = parent['bbox']
+        position = tuple(bbox.split(','))
+        accendant = parent
+        while accendant.name != 'page':
+            accendant = accendant.parent
+        page = int(accendant['id']) - 1
+        return {
+                'value': res.get_text(),
+                'page': page,
+                'position': position}
 
 def from_last_page(page):
     """
