@@ -1,6 +1,7 @@
 import re
 from bs4 import BeautifulSoup
 from sys import argv
+import entity_name
 
 def extract(soup):
     """
@@ -8,13 +9,17 @@ def extract(soup):
 
     @return:
         {
-            'entity_name':
+            'entity_name': {
+                value: ,
+                page: ,               # counted from zero
+                position: (x0, y0, x1, y1)
+            }
         }
     """
     res = { }
     pages = soup.find_all('page')
     # print(pages)
-    res['entity_name'] = extract_entity_name_from_last_page(pages[-1]).get_text()
+    res['entity_name'] = entity_name.from_pages(pages)
     return res
 
 
