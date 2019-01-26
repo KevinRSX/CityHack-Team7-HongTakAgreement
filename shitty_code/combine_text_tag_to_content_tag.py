@@ -1,7 +1,13 @@
+"""
+Usage:
+    pdf2txt -o convered.xml original.pdf && \
+            ./combine_text_tag_to_content_tag.py convered.xml added.xml
+"""
 import re
 import bs4.element
 from bs4 import BeautifulSoup
 from sys import argv
+
 
 in_filename = argv[1]
 out_filename = argv[2]
