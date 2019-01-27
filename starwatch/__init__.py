@@ -1,7 +1,14 @@
-import extractor
+from .extractor import extract as ex
+from .find_auditor import extract as exp
 from bs4 import BeautifulSoup
+from . import toxml
 
-def extract(file_name):
+def extract_entity(file_name):
     with open(file_name) as f:
         soup = BeautifulSoup(f, 'xml')
-    extractor.extract(soup)
+    return ex(soup)
+
+def extract_auditor(file_name):
+    with open(file_name) as f:
+        soup = BeautifulSoup(f, 'xml')
+    return exp(soup)

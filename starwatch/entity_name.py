@@ -1,11 +1,11 @@
 import re
-import wf
+from . import wf
 
 MAX_FREQUENT_WORDS = 300
 MAX_TESTED_FREQUENT_WORDS = 100
 MAX_FRONT_PAGES_NUMBER = 3
 
-with open('./postal_address_words.txt', 'r') as f:
+with open('starwatch/postal_address_words.txt', 'r') as f:
     _address_word_list = [r for r in f]
 
 def from_pages(pages):
@@ -58,6 +58,3 @@ def is_address(s):
         if word in s:
             return True
     return False
-
-
-
