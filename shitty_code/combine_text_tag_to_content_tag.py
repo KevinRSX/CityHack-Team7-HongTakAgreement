@@ -22,10 +22,9 @@ for textline in textlines:
                     if x is not None and type(x) is bs4.element.Tag
                     and x.string is not None])
     content_tag_cont = '<content>{}</content>'.format(content)
-    content_soup = BeautifulSoup(content_tag_cont, 'xml')
+    content_soup = BeautifulSoup(content_tag_cont, 'xml').content
     textline.append(content_soup)
 
 with open(out_filename, 'w') as f:
     f.write(str(soup))
-
 

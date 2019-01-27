@@ -50,9 +50,10 @@ def read_word_frequence(f, max_lines=500):
     count = 0
     res = {}
     for row in reader:
-        if count > max_lines:
+        if count >= max_lines:
             break
         res[row[0]] = float(res[row[1]])
+        count += 1
 
     return res
 
