@@ -29,7 +29,7 @@ def extract_first(soup):
     p = 0
     pages = soup.find_all('page')
     for pg in pages:
-        messages = extract_from_page_by_line(pg,'audit',ave,p)
+        messages = extract_from_page_by_line(pg,'net profit',ave,p)
         p+=1
         if messages is not None:
             for message in messages:
@@ -63,7 +63,7 @@ def extract(soup):
     for content in contents:
         n = int(contents[content][2])+1
         page = soup.find('page',id=n)
-        opinions = extract_from_page_by_line(page,r'^\W*opinion\W*$',0,n-1)
+        opinions = extract_from_page_by_line(page,r'^\W*net profit\W*$',0,n-1)
         if opinions is not None:
             for opinion in opinions:
                 opinions[opinion][0] = opinions[opinion][0].get_text()
@@ -80,4 +80,3 @@ if __name__ == '__main__':
         ops = extract(soup)
         for opinion in ops:
             print(ops[opinion])
-            

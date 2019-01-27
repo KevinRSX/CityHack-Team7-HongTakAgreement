@@ -1,5 +1,54 @@
 # CityHack-Team7-HongTakAgreement
 
+# How to Use our API
+
+We encapsulate out files into one package `starwatch`. The use of API is very simple.
+
+At the beginning of your program, add
+
+```python
+import starwatch
+```
+
+
+
+## PDF to XML converter
+
+```python
+starwatch.toxml.toxml(out_file, in_file)
+```
+
+converts a PDF to a machine readable XML file. This function is wrapper and enhancer of the [pdfmine](https://github.com/pdfminer/pdfminer.six) library. It is found especially useful when we process this project.
+
+The format of the returned object should
+
+Parameters:
+
+- `out_file`: the output xml file
+- `in_file`: the input pdf file
+
+
+
+## Extractor
+
+```python
+starwatch.extract_entity(file_name)
+starwatch.extract_auditor(file_name)
+starwatch.extract_num(file_name)
+```
+
+Extracts information from a file
+
+Parameters:
+
+- `file_name`: the XML converted before
+
+Return value:
+
+- a python dictionary containing the extracted information
+
+
+
 # Implementation
 
 ## Approaches
@@ -26,39 +75,3 @@ There are totally 2,487,246 words in the training set
 ## Difficulties
 
 The OCR results are not good. Thus, we use a Python library pdfMine plus some self-written code to transform the pdf files to xml files.
-
-# API
-
-We encapsulate out files into one package `starWatch`. There are 2 important functions provided.
-
-## PDF to XML converter
-
-```python
-starwatch.toxml(out_file, in_file)
-```
-
-converts a PDF to a machine readable XML file. This function is wrapper and enhancer of the [pdfmine](https://github.com/pdfminer/pdfminer.six) library. It is found especially useful when we process this project.
-
-The format of the returned object should
-
-Parameters:
-- `out_file`: the output xml file
-- `in_file`: the input pdf file
-
-
-
-## Extractor
-
-```python
-starwatch.extract(file_name)
-```
-
-Extracts information from a file
-
-Parameters:
-
-- `file_name`: the XML converted before
-
-Return value:
-
-- a python dictionary containing the extracted information
