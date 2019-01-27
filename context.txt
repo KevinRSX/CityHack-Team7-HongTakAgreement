@@ -1,0 +1,11 @@
+JSON
+"pageId": 114,
+"tags": [],
+"pageType": ""
+
+HOCR
+bbox
+Baseline
+x_descenders
+x_ascenders
+x_size

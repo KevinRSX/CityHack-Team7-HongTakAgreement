@@ -2,6 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from sys import argv
 import entity_name
+import json
 
 def extract(soup):
     """
